@@ -46,3 +46,27 @@ main{
     grid-column: 1 / -1;
     border-radius: 5px;
 }
+
+.meme{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.meme--image{
+    height: 55%;
+    position: absolute;
+}
+
+.meme--text-top{
+    position: absolute;
+    color:white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.meme--text-bottom{
+    position: absolute;
+    top:75%;
+    color:white;
+    text-shadow: 2px 2px 2px black;
+}
